@@ -1,4 +1,4 @@
-alert('CHECK OUT THE LOG !!');
+alert('CHECK OUT THE CONSOLE LOG !!');
 console.log('--- Variables y Operadores ---');
 
 /* a) Crear dos variables numéricas y utilizar el operador suma
