@@ -20,7 +20,7 @@ console.log('b) ' + secondString + ' ---> firstString: ' + firstString);
 /* c) Crear una variable de tipo string con al menos 10 caracteres y generar un
 nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 //Solution:
-var thirdString = 'House of the morning sun';
+var thirdString = 'House of the rising sun';
 var fourthString = thirdString.substring(thirdString.length - 3);
 
 
@@ -40,6 +40,10 @@ console.log('d) ' + sixthString + ' ---> ' + fifthString);
 /* e) Crear una variable de tipo string con al menos 10 caracteres y algún espacio
 en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
 //Solution:
+var fillingTheBlanks = 'Find out where the first blank is in this sentence';
+
+console.log('e) The first blank is it in position number: ' + fillingTheBlanks.indexOf(' ',0));
+//---> I know I could remove 0 and It still starts from the beginning.
 
 
 /* f) Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
