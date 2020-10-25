@@ -31,7 +31,11 @@ console.log('c) ' + fourthString + ' ---> thirdString: ' + thirdString);
 nuevo string con la primera letra en mayúscula y las demás en minúscula.
 Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
 //Solution:
+var fifthString, sixthString;
+fifthString = 'this is it';
+sixthString = fifthString.toUpperCase()[0] + fifthString.substring(1);
 
+console.log('d) ' + sixthString + ' ---> ' + fifthString);
 
 /* e) Crear una variable de tipo string con al menos 10 caracteres y algún espacio
 en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
