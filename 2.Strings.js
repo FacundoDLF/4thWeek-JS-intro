@@ -1,15 +1,19 @@
-// --- Strings ---
+console.log('--- Strings ---');
 
 /* a) Crear una variable de tipo string con al menos 10 caracteres y convertir
 todo el texto en mayúscula (utilizar toUpperCase).*/
 //Solution:
+var toUp = 'once upon a time..';
 
-
+console.log('a) ' + toUp.toUpperCase());
 
 
 /* b) Crear una variable de tipo string con al menos 10 caracteres y generar un
 nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 //Solution:
+var firstString = 'Three sad tigers';
+var secondString = firstString.substring(0,5);
+console.log('b) ' + secondString + ' ---> firstString: ' + firstString);
 
 
 /* c) Crear una variable de tipo string con al menos 10 caracteres y generar un
