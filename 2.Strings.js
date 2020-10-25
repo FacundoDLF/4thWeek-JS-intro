@@ -13,12 +13,18 @@ nuevo string con los primeros 5 caracteres guardando el resultado en una nueva v
 //Solution:
 var firstString = 'Three sad tigers';
 var secondString = firstString.substring(0,5);
+
 console.log('b) ' + secondString + ' ---> firstString: ' + firstString);
 
 
 /* c) Crear una variable de tipo string con al menos 10 caracteres y generar un
 nuevo string con los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 //Solution:
+var thirdString = 'House of the morning sun';
+var fourthString = thirdString.substring(thirdString.length - 3);
+
+
+console.log('c) ' + fourthString + ' ---> thirdString: ' + thirdString);
 
 
 /* d) Crear una variable de tipo string con al menos 10 caracteres y generar un
