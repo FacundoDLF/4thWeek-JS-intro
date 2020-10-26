@@ -14,7 +14,7 @@ nuevo string con los primeros 5 caracteres guardando el resultado en una nueva v
 var firstString = 'Three sad tigers';
 var secondString = firstString.substring(0,5);
 
-console.log('b) ' + secondString + ' ---> firstString: ' + firstString);
+console.log('b) ' + secondString + ' > firstString: ' + firstString);
 
 
 /* c) Crear una variable de tipo string con al menos 10 caracteres y generar un
@@ -24,7 +24,7 @@ var thirdString = 'House of the rising sun';
 var fourthString = thirdString.substring(thirdString.length - 3);
 
 
-console.log('c) ' + fourthString + ' ---> thirdString: ' + thirdString);
+console.log('c) ' + fourthString + ' > thirdString: ' + thirdString);
 
 
 /* d) Crear una variable de tipo string con al menos 10 caracteres y generar un
