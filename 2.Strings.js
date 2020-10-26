@@ -51,3 +51,8 @@ Utilizar los métodos de los ejercicios anteriores para generar un nuevo string
 que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula
 (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).*/
 //Solution:
+var seventhString = 'hakuna matata';
+var space = seventhString.indexOf(' ');
+var newString = seventhString.toUpperCase()[0] + seventhString.substring(1,space) + seventhString[space] + seventhString.toUpperCase()[space+1] + seventhString.substring(space+2);
+
+console.log('f) ' + newString);
