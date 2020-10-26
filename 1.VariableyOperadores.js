@@ -8,7 +8,7 @@ para guardar el valor de la suma de ambos números en una 3er variable.*/
 var num1 = 4;
 var num2 = 8;
 var result = num1 + num2;
-console.log('a) El resultado de la SUMA es: ' + result);
+console.log('a) The result of the addition is: ' + result);
 
 
 /* b) Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.*/
@@ -30,4 +30,4 @@ string3 = 'Cause';
 string4 = 'Effect';
 stringsLength = string3.length + string4.length;
 
-console.log('c) ' + stringsLength + ' --> Cause: length ' + string3.length + ' and Effect: length ' + string4.length);
+console.log('c) ' + stringsLength + ' > Cause: length ' + string3.length + ' and Effect: length ' + string4.length);
