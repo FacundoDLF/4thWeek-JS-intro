@@ -1,12 +1,16 @@
-// --- Arrays ---
+console.log('--- Arrays ---');
 
 /* a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 mostrar por consola los meses 5 y 11 (utilizar console.log)*/
 //Solution:
+var month = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio','Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
+console.log('a) ' + month[5]);
+console.log('   ' + month[11]);
 
 /* b) Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).*/
 //Solution:
+console.log('b) ' + month.sort());
 
 
 /* c) Agregar un elemento al principio y al final del array (utilizar unshift y push).*/
