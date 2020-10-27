@@ -1,5 +1,4 @@
-#Exercise JavaScrip#
-
+#Exercise JavaScrip
 ---
 
 GitPage - Responsive 3thWeek
