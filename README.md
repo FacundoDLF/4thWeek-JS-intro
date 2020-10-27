@@ -1,9 +1,5 @@
 Exercise JavaScrip
 
-**-->Link:**
-
-https://facundodlf.github.io/4thWeek-JS-intro/.
-
 ---
 
 GitPage - Responsive 3thWeek
