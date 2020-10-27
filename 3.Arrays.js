@@ -31,7 +31,10 @@ console.log('d) ' + month); // ---> I dont know if I should use the original Arr
 
 /* e) Invertir el orden del array (utilizar reverse)*/
 //Solution:
+var month = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio','Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
+month.reverse();
+console.log('e) ' + month);
 
 /* f) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).*/
 //Solution:
