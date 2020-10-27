@@ -1,9 +1,13 @@
-// --- For ---
+console.log(' --- For ---');
 
 /* a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript
 para mostrar una alerta utilizando cada una de las palabras.*/
 //Solution:
+var fingers = ['thumb', 'index', 'middle', 'ringFinger', 'pinky'];
 
+for (let fingers = 0; fingers< 5; fingers++ ){
+    console.log('a) ' + fingers)
+};
 
 /* b) Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta
 por cada palabra modificada.*/
