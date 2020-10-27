@@ -13,7 +13,7 @@ function plus(x,y) {
 };
 
 var result = plus(x,y);
-console.log('a) ', result);
+console.log('a) '+ result);
 
 /* b) A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros
 no es un número, mostrar una alerta aclarando que uno de los parámetros tiene error y
@@ -26,7 +26,7 @@ if ((typeof x !== 'number') || (typeof y !== 'number') ) {
     alert('ERROR: One of the parameters is Not-A-NUmber')
 };
 
-console.log('b) ', plus(x,y));
+console.log('b) '+ plus(x,y));
 
 /* c) Crear una función validate integer que reciba un número como parámetro y verdadero si es un número entero.
 A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros.
@@ -44,5 +44,4 @@ function valInt(alfa) {
         return alfa + ' Its not a whole number';
     }
 };
-console.log('c) ' , valInt(alfa));
-
+console.log('c) ' + valInt(alfa));
