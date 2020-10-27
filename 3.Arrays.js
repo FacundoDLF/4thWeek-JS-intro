@@ -38,7 +38,9 @@ console.log('e) ' + month);
 
 /* f) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).*/
 //Solution:
+var month = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio','Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
+console.log('f) ' + month.join('-'));
 
 /* g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
 //Solution:
