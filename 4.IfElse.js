@@ -24,3 +24,22 @@ los siguientes mensajes de alerta:
      VI) “Adulto mayor” entre 61 y 75 años
     VII) “Anciano” si es mayor a 75 años.*/
 //Solution:
+
+var age = 27;
+console.log('b) Age = ' + age);
+
+if (age <2) {
+    alert('Bebe')
+} else if ((age >=2) && (age<=12)) {
+    alert('Niño')
+} else if ((age >=13) && (age<=19)) {
+    alert('Adolecente')
+} else if ((age >=20) && (age<=30)) {
+    alert('Joven')
+} else if ((age >=31) && (age<=60)) {
+    alert('Adulto')
+} else if ((age >=61) && (age<=75)) {
+    alert('Adulto mayor')
+} else if (age > 75) {
+    alert('Anciano')
+};
