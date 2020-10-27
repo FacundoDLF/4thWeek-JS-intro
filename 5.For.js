@@ -5,14 +5,18 @@ para mostrar una alerta utilizando cada una de las palabras.*/
 //Solution:
 var fingers = ['thumb', 'index', 'middle', 'ringFinger', 'pinky'];
 
-for (let fingers = 0; fingers< 5; fingers++ ){
-    console.log('a) ' + fingers)
+for (var i = 0; i < 5; i++){
+    console.log('a) Alert')
+    alert(fingers[i])
 };
 
 /* b) Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta
 por cada palabra modificada.*/
 //Solution:
+var fingers = ['thumb', 'index', 'middle', 'ringFinger', 'pinky'];
 
+
+console.log('b) ' + fingers);
 
 /* c) Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo
 con un bucle for para ir guardando cada palabra dentro de la variable sentence.
