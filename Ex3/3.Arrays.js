@@ -1,3 +1,4 @@
+alert('CHECK IT OUT! Lets go to the Console Log');
 console.log('--- 3.Arrays ---');
 
 /* a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]

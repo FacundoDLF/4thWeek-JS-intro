@@ -1,3 +1,4 @@
+alert('CHECK IT OUT! Lets go to the Console Log');
 console.log('--- 2.Strings ---');
 
 /* a) Crear una variable de tipo string con al menos 10 caracteres y convertir

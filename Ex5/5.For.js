@@ -1,3 +1,4 @@
+alert('CHECK IT OUT! Lets go to the Console Log');
 console.log(' --- 5.For ---');
 
 /* a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript

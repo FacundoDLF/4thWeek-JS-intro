@@ -1,3 +1,4 @@
+alert('CHECK IT OUT! Lets go to the Console Log');
 console.log(' --- 4.If Else ---');
 
 /* a) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(),
