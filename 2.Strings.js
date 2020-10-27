@@ -1,4 +1,4 @@
-console.log('--- Strings ---');
+console.log('--- 2.Strings ---');
 
 /* a) Crear una variable de tipo string con al menos 10 caracteres y convertir
 todo el texto en mayúscula (utilizar toUpperCase).*/
@@ -53,6 +53,6 @@ que tenga la primera letra de ambas palabras en mayúscula y las demás letras e
 //Solution:
 var seventhString = 'hakuna matata';
 var space = seventhString.indexOf(' ');
-var newString = seventhString.toUpperCase()[0] + seventhString.substring(1,space) + seventhString[space] + seventhString.toUpperCase()[space+1] + seventhString.substring(space+2);
+var newString = seventhString[0].toUpperCase() + seventhString.substring(1,space) + seventhString[space] + seventhString.toUpperCase()[space+1] + seventhString.substring(space+2);
 
 console.log('f) ' + newString);
