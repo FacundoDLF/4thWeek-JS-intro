@@ -38,4 +38,10 @@ es decir que al final de la ejecución del bucle for deberia haber 10 elementos 
 desde el número 0 hasta al numero 9. Mostrar por la consola del navegador el al array final
 (utilizar console.log).*/
 //Solution:
+var empty = '';
+
+for (var i = 0; i < 10; i++){
+    empty += i
+};
+console.log('5.d) ' + empty)
 
