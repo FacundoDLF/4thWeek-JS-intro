@@ -18,6 +18,20 @@ no es un número, mostrar una alerta aclarando que uno de los parámetros tiene 
 retornar el valor NaN como resultado.*/
 //Solution:
 
+var x,y,plus;
+x = '3';
+y = 4;
+plus = x + y;
+function suma(x,y) {
+    if ((x === NaN) || (y === NaN)) {
+        alert('ERROR: One of the parameters is Not-A-Number.')
+        return{Nan}
+    }else{
+        return{plus}
+    }
+};
+console.log('6.b) Alert');
+
 
 /* c) Crear una función validate integer que reciba un número como parámetro y verdadero si es un número entero.
 A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros.
