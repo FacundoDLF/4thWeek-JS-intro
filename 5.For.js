@@ -32,6 +32,7 @@ for (var i = 0; i < 5; i++){
     }/* alert('5.c) ' + sentence) --> From the inside adds one by one*/
 };
 alert('5.c) ' + sentence);
+console.log(' 5.c) Alert');
 
 /* d) Crear una array vacío y con un bucle for de 10 repeticiones llenar el array con el número de la repetición,
 es decir que al final de la ejecución del bucle for deberia haber 10 elementos dentro del array,
@@ -43,5 +44,5 @@ var empty = '';
 for (var i = 0; i < 10; i++){
     empty += i
 };
-console.log('5.d) ' + empty)
+console.log(' 5.d) ' + empty)
 
