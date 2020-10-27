@@ -24,9 +24,8 @@ x = '3';
 
 if ((typeof x !== 'number') || (typeof y !== 'number') ) {
     alert('ERROR: One of the parameters is Not-A-NUmber')
-} if ((Number.isInteger(x)) && (Number.isInteger(y)) ) {
-    //return 'They are wholes numbers'
 };
+
 console.log('b) ', plus(x,y));
 
 /* c) Crear una función validate integer que reciba un número como parámetro y verdadero si es un número entero.
@@ -36,7 +35,7 @@ Convertir la validación del ejercicio 6b) en una función separada y llamarla d
 probando que todo siga funcionando igual.*/
 //Solution:
 
-var alfa = 21;
+var alfa = 21.8;
 
 function valInt(alfa) {
     if (Number.isInteger(alfa)) {
