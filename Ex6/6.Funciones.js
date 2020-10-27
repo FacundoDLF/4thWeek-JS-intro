@@ -18,17 +18,14 @@ no es un número, mostrar una alerta aclarando que uno de los parámetros tiene 
 retornar el valor NaN como resultado.*/
 //Solution:
 
-var x,y,plus;
-x = '3';
-y = 4;
-plus = x + y;
 function suma(x,y) {
-    if ((x === NaN) || (y === NaN)) {
-        alert('ERROR: One of the parameters is Not-A-Number.')
-        return{Nan}
-    }else{
-        return{plus}
+    if ((x !== Number.NaN) || (y !== Number.NaN)) {
+        alert('ERROR: One of the parameters is Not-A-Number.');
+        return{Nan};
     }
+    if (suma(x,y)){
+        return{plus}
+    };
 };
 console.log('6.b) Alert');
 
