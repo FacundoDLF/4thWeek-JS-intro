@@ -1,4 +1,4 @@
-console.log('--- Arrays ---');
+console.log('--- 3.Arrays ---');
 
 /* a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 mostrar por consola los meses 5 y 11 (utilizar console.log)*/
