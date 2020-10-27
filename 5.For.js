@@ -13,17 +13,19 @@ for (var i = 0; i < 5; i++){
 /* b) Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta
 por cada palabra modificada.*/
 //Solution:
-var fingers = ['thumb', 'index', 'middle', 'ringFinger', 'pinky'];
+
 for (var i =0; i < 5; i++){
     alert('5.b) ' + fingers[i].substring(0,1).toUpperCase()+fingers[i].substring(1,).toLowerCase())
-    console.log('5.b) Alert');
-}
+    console.log('5.b) Alert')
+};
 
 /* c) Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo
 con un bucle for para ir guardando cada palabra dentro de la variable sentence.
 Al final mostrar una única alerta con la cadena completa.*/
 //Solution:
+var sentence = '';
 
+for (var i = 0; i < 5; i++);
 
 /* d) Crear una array vacío y con un bucle for de 10 repeticiones llenar el array con el número de la repetición,
 es decir que al final de la ejecución del bucle for deberia haber 10 elementos dentro del array,
